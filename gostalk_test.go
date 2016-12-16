@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/tvmaly/gobdd"
+	. "github.com/manveru/gobdd"
 	"gopkg.in/yaml.v2"
 )
 
