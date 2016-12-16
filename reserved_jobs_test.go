@@ -1,7 +1,7 @@
 package gostalk
 
 import (
-	. "github.com/manveru/gobdd"
+	. "github.com/tvmaly/gobdd"
 )
 
 func init() {

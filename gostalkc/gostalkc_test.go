@@ -2,8 +2,8 @@ package gostalkc
 
 import (
 	"fmt"
-	. "github.com/manveru/gobdd"
-	"github.com/manveru/gostalk"
+	. "github.com/tvmaly/gobdd"
+	"github.com/tvmaly/gostalk"
 	"os"
 	"os/signal"
 	"reflect"

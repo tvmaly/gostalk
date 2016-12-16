@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/manveru/gostalk"
+	"github.com/tvmaly/gostalk"
 )
 
 func main() {
