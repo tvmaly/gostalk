@@ -15,7 +15,7 @@ func (i *readyJobsItem) Index(n int) {
 }
 
 type readyJobs struct {
-	prio.Queue
+	priorityqueue.Queue
 }
 
 func newReadyJobs() (jobs *readyJobs) {
