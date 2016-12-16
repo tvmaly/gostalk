@@ -1,7 +1,7 @@
 package gostalk
 
 import (
-	"github.com/tvmaly/go-priority-queue/prio"
+	prio "github.com/tvmaly/go-priority-queue"
 )
 
 type readyJobsItem job
