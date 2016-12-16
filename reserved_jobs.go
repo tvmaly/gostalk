@@ -1,13 +1,13 @@
 package gostalk
 
 import (
-	prio "github.com/tvmaly/go-priority-queue"
+	"github.com/tvmaly/priorityqueue"
 	"time"
 )
 
 type reservedJobsItem job
 
-func (i *reservedJobsItem) Less(j prio.Interface) bool {
+func (i *reservedJobsItem) Less(j priorityqueue.Interface) bool {
 	return i.reserveEndsAt.Before(j.(*reservedJobsItem).reserveEndsAt)
 }
 

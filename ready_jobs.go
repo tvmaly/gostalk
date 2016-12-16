@@ -1,12 +1,12 @@
 package gostalk
 
 import (
-	prio "github.com/tvmaly/go-priority-queue"
+	"github.com/tvmaly/priorityqueue"
 )
 
 type readyJobsItem job
 
-func (i *readyJobsItem) Less(j prio.Interface) bool {
+func (i *readyJobsItem) Less(j priorityqueue.Interface) bool {
 	return i.priority < j.(*readyJobsItem).priority
 }
 
