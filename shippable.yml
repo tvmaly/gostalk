@@ -4,7 +4,6 @@ go:
   - 1.7
 
 install:
-  - go get code.google.com/p/go.tools/cmd/cover
 
 script:
   - export GOPATH=$PWD

@@ -1,7 +1,7 @@
 package gostalk
 
 import (
-	"code.google.com/p/go-priority-queue/prio"
+	"github.com/tvmaly/go-priority-queue"
 	"time"
 )
 
